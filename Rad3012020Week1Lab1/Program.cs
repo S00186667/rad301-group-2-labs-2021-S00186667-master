@@ -22,6 +22,9 @@ namespace Rad3012020Week1Lab1
 
             ProductData PD = new ProductData();
 
+         // queryTotalValue;
+       
+
             /*  foreach(var cat in PD.Category)
                {
 
@@ -30,7 +33,7 @@ namespace Rad3012020Week1Lab1
                }*/
 
 
-
+            
 
             //8. List all the categories.
             var queryCategories = from cat in PD.Category
